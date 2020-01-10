@@ -1,0 +1,818 @@
+<style>
+  .image-masthead {
+  background-blend-mode: normal, overlay, hard-light, color-burn, hard-light;
+  }
+  
+  /* >L-viewport*/
+    @media only screen 
+  and (min-device-width: 1441px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .headline-1000.fluid {
+      font-size: 10vw;
+	  line-height: 10vw;
+      letter-spacing: -0.42vw;
+    }
+    
+      .headline-800.fluid {
+      font-size: 8.9vw;
+	  line-height: 8.9vw;
+      letter-spacing: -0.38vw;
+    }
+    
+    .headline-600.fluid {
+      font-size: 7.8vw;
+	  line-height: 7.8vw;
+      letter-spacing: -0.35vw;
+    }
+    
+    .headline-400.fluid {
+      font-size: 6.7vw;
+	  line-height: 6.7vw;
+      letter-spacing: -0.35vw;
+    }
+    
+     .headline-200.fluid {
+      font-size: 6.1vw;
+	  line-height: 6.1vw;
+      letter-spacing: -0.28vw;
+    }
+    
+    .headline-100.fluid {
+      font-size: 5.6vw;
+	  line-height: 5.6vw;
+      letter-spacing: -0.28vw;
+    }
+    
+  }
+  
+  /*L-viewport*/
+    @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1440px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+        .grid-wrapper,.masthead,.image-masthead {
+         padding-right: 10vw;
+    padding-left: 10vw;
+    }
+    
+    /*light-ui grid*/
+    .light-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: minmax(1px, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    grid-template-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+    /*spacers*/
+    .s1200 {
+      height: 224px;
+    }
+    
+    .s1100 {
+      height: 160px;
+    }
+    
+    .s1000 {
+      height: 112px;
+    }
+    
+    .s900 {
+      height: 80px;
+    }
+    
+    .s800 {
+      height: 56px;
+    }
+    
+    .s700 {
+      height: 40px;
+    }
+    
+    .s600 {
+      height: 24px;
+    }
+    
+    .s500 {
+      height: 20px;
+    }
+    
+    .s400 {
+      height: 16px;
+    }
+    
+    .s300 {
+      height: 12px;
+    }
+    
+    .s200 {
+      height: 8px;
+    }
+    
+    .s100 {
+      height: 4px;
+    }
+    
+    /*type*/
+    .headline-1000 {
+      font-size: 144px;
+	  line-height: 144px;
+      letter-spacing: -6px;
+    }
+    
+    .headline-800 {
+      font-size: 128px;
+	  line-height: 128px;
+      letter-spacing: -5.5px;
+    }
+    
+    .headline-600 {
+      font-size: 112px;
+	  line-height: 112px;
+      letter-spacing: -5px;
+    }
+    
+    .headline-400 {
+      font-size: 96px;
+	  line-height: 96px;
+      letter-spacing: -5px;
+    }
+    
+      .headline-200 {
+      font-size: 88px;
+	  line-height: 88px;
+      letter-spacing: -4px;
+    }
+    
+    .headline-100 {
+      font-size: 80px;
+	  line-height: 80px;
+      letter-spacing: -4px;
+    }
+    
+    .subheading-300 {
+      font-size: 64px;
+	  line-height: 64px;
+      letter-spacing: -3px;
+    }
+    
+    .subheading-200 {
+      font-size: 56px;
+	  line-height: 56px;
+      letter-spacing: -3px;
+    }
+    
+    .subheading-100 {
+      font-size: 48px;
+	  line-height: 52px;
+      letter-spacing: -2px;
+    }
+    
+    .subheading-50 {
+      font-size: 40px;
+	  line-height: 44px;
+      letter-spacing: -1.5px;
+    }
+    
+    .paragraph-700 {
+      font-size: 32px;
+	  line-height: 36px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-600 {
+      font-size: 28px;
+	  line-height: 32px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-400 {
+      font-size: 24px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-300 {
+      font-size: 20px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-200 {
+      font-size: 18px;
+	  line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-150 {
+      font-size: 16px;
+	  line-height: 24px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-100 {
+      font-size: 14px;
+	  line-height: 20px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-50 {
+      font-size: 12px;
+	  line-height: 18px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-25 {
+      font-size: 10px;
+	  line-height: 16px;
+      letter-spacing: 0.5px;
+    }
+  }
+  
+  /*M-viewport*/
+      @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1023px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+         .grid-wrapper,.masthead,.image-masthead {
+         padding-right: 48px;
+    padding-left: 48px;
+    }
+    
+    /*light-ui grid*/
+    .light-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: minmax(1px, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    grid-template-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+    
+     /*spacers*/
+    .s1200 {
+      height: 224px;
+    }
+    
+    .s1100 {
+      height: 160px;
+    }
+    
+    .s1000 {
+      height: 112px;
+    }
+    
+    .s900 {
+      height: 80px;
+    }
+    
+    .s800 {
+      height: 56px;
+    }
+    
+    .s700 {
+      height: 40px;
+    }
+    
+    .s600 {
+      height: 24px;
+    }
+    
+    .s500 {
+      height: 20px;
+    }
+    
+    .s400 {
+      height: 16px;
+    }
+    
+    .s300 {
+      height: 12px;
+    }
+    
+    .s200 {
+      height: 8px;
+    }
+    
+    .s100 {
+      height: 4px;
+    }
+    
+    /*type*/
+    .headline-1000 {
+      font-size: 128px;
+	  line-height: 128px;
+      letter-spacing: -5.5px;
+    }
+    
+    .headline-800 {
+      font-size: 112px;
+	  line-height: 112px;
+      letter-spacing: -5px;
+    }
+    
+    .headline-600 {
+      font-size: 96px;
+	  line-height: 96px;
+      letter-spacing: -5px;
+    }
+    
+      .headline-400 {
+      font-size: 88px;
+	  line-height: 88px;
+      letter-spacing: -4px;
+    }
+    
+    .headline-200 {
+      font-size: 80px;
+	  line-height: 80px;
+      letter-spacing: -4px;
+    }
+    
+    .headline-100 {
+      font-size: 64px;
+	  line-height: 64px;
+      letter-spacing: -3px;
+    }
+    
+    .subheading-300 {
+      font-size: 56px;
+	  line-height: 56px;
+      letter-spacing: -3px;
+    }
+    
+    .subheading-200 {
+      font-size: 48px;
+	  line-height: 52px;
+      letter-spacing: -2px;
+    }
+    
+    .subheading-100 {
+      font-size: 40px;
+	  line-height: 44px;
+      letter-spacing: -1.5px;
+    }
+    
+    .subheading-50 {
+      font-size: 32px;
+	  line-height: 36px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-700 {
+      font-size: 28px;
+	  line-height: 32px;
+      letter-spacing: 0px;
+    }
+    
+     .paragraph-600 {
+      font-size: 24px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-400 {
+      font-size: 24px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-300 {
+      font-size: 20px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-200 {
+      font-size: 18px;
+	  line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-150 {
+      font-size: 16px;
+	  line-height: 24px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-100 {
+      font-size: 14px;
+	  line-height: 20px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-50 {
+      font-size: 12px;
+	  line-height: 18px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-25 {
+      font-size: 10px;
+	  line-height: 16px;
+      letter-spacing: 0.5px;
+    }
+  }
+  
+  /*S-viewport*/
+      @media only screen 
+  and (min-device-width: 512px) 
+  and (max-device-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+         .grid-wrapper,.masthead,.image-masthead {
+         padding-right: 48px;
+    padding-left: 48px;
+    }
+    
+     /*light-ui grid*/
+    .light-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: minmax(1px, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    grid-template-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+    
+     /*spacers*/
+	.s1200 {
+      height: 160px;
+    }
+    
+    .s1100 {
+      height: 112px;
+    }
+    
+    .s1000 {
+      height: 80px;
+    }
+    
+    .s900 {
+      height: 56px;
+    }
+    
+    .s800 {
+      height: 40px;
+    }
+    
+    .s700 {
+      height: 24px;
+    }
+    
+    .s600 {
+      height: 20px;
+    }
+    
+    .s500 {
+      height: 16px;
+    }
+    
+    .s400 {
+      height: 12px;
+    }
+    
+    
+    .s300 {
+      height: 12px;
+    }
+    
+    .s200 {
+      height: 8px;
+    }
+    
+    .s100 {
+      height: 4px;
+    }
+    
+    /*type*/
+    .headline-1000 {
+     /* word-break: break-all;*/
+      font-size: 112px;
+	  line-height: 112px;
+      letter-spacing: -5px;
+    }
+    
+    .headline-800 {
+    /*  word-break: break-all;*/
+      font-size: 96px;
+	  line-height: 96px;
+      letter-spacing: -5px;
+    }
+    
+      .headline-600 {
+      /*  word-break: break-all;*/
+      font-size: 88px;
+	  line-height: 88px;
+      letter-spacing: -4px;
+    }
+    
+    .headline-400 {
+     /* word-break: break-all;*/
+      font-size: 80px;
+	  line-height: 80px;
+      letter-spacing: -4px;
+    }
+    
+    .headline-200 {
+     /* word-break: break-all;*/
+      font-size: 64px;
+	  line-height: 64px;
+      letter-spacing: -3px;
+    }
+    
+    .headline-100 {
+     /* word-break: break-all;*/
+      font-size: 56px;
+	  line-height: 56px;
+      letter-spacing: -3px;
+    }
+    
+    .subheading-300 {
+     /* word-break: break-all;*/
+      font-size: 48px;
+	  line-height: 52px;
+      letter-spacing: -2px;
+    }
+    
+    .subheading-200 {
+     /* word-break: break-all;*/
+      font-size: 40px;
+	  line-height: 44px;
+      letter-spacing: -1.5px;
+    }
+    
+    .subheading-100 {
+    /*  word-break: break-all;*/
+      font-size: 32px;
+	  line-height: 36px;
+      letter-spacing: 0px;
+    }
+    
+    .subheading-50 {
+      font-size: 28px;
+	  line-height: 32px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-700 {
+      font-size: 24px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-600 {
+      font-size: 24px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-400 {
+      font-size: 20px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-300 {
+      font-size: 18px;
+	  line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-200 {
+      font-size: 18px;
+	  line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-150 {
+      font-size: 16px;
+	  line-height: 24px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-100 {
+      font-size: 14px;
+	  line-height: 20px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-50 {
+      font-size: 12px;
+	  line-height: 18px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-25 {
+      font-size: 10px;
+	  line-height: 16px;
+      letter-spacing: 0.5px;
+    }
+  }
+  
+  /*XS-viewport*/
+      @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 511px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+         .grid-wrapper,.masthead,.image-masthead {
+         padding-right: 24px;
+    padding-left: 24px;
+    }
+    
+     /*light-ui grid*/
+    .light-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: minmax(1px, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+    -ms-grid-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    grid-template-columns: minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr) minmax(1px, 1fr);
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+}
+    
+     /*spacers*/
+	.s1200 {
+      height: 112px;
+    }
+    
+    .s1100 {
+      height: 80px;
+    }
+    
+    .s1000 {
+      height: 56px;
+    }
+    
+    .s900 {
+      height: 40px;
+    }
+    
+    .s800 {
+      height: 24px;
+    }
+    
+    .s700 {
+      height: 20px;
+    }
+    
+    .s600 {
+      height: 16px;
+    }
+    
+    .s500 {
+      height: 16px;
+    }
+    
+    .s400 {
+      height: 12px;
+    }
+    
+    
+    .s300 {
+      height: 12px;
+    }
+    
+    .s200 {
+      height: 8px;
+    }
+    
+    .s100 {
+      height: 4px;
+    }
+    
+    
+    /*type*/
+    .headline-1000 {
+      /*word-break: break-all;*/
+      font-size: 80px;
+	  line-height: 80px;
+      letter-spacing: -4px;
+    }
+    
+    .headline-800 {
+    /*  word-break: break-all;*/
+      font-size: 64px;
+	  line-height: 64px;
+      letter-spacing: -3px;
+    }
+    
+    .headline-600 {
+     /* word-break: break-all;*/
+      font-size: 56px;
+	  line-height: 56px;
+      letter-spacing: -3px;
+    }
+    
+    .headline-400 {
+     /* word-break: break-all;*/
+      font-size: 48px;
+	  line-height: 52px;
+      letter-spacing: -2px;
+    }
+    
+    .headline-200 {
+     /* word-break: break-all;*/
+      font-size: 40px;
+	  line-height: 44px;
+      letter-spacing: -1.5px;
+    }
+    
+    .headline-100 {
+     /* word-break: break-all;*/
+      font-size: 32px;
+	  line-height: 36px;
+      letter-spacing: 0px;
+    }
+    
+    .subheading-300 {
+      font-size: 28px;
+	  line-height: 32px;
+      letter-spacing: 0px;
+    }
+    
+    .subheading-200 {
+      font-size: 24px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .subheading-100 {
+      font-size: 24px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .subheading-50 {
+      font-size: 20px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-700 {
+      font-size: 20px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-600 {
+      font-size: 20px;
+	  line-height: 28px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-400 {
+      font-size: 18px;
+	  line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-300 {
+      font-size: 18px;
+	  line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-200 {
+      font-size: 18px;
+	  line-height: 26px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-150 {
+      font-size: 16px;
+	  line-height: 24px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-100 {
+      font-size: 14px;
+	  line-height: 20px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-50 {
+      font-size: 12px;
+	  line-height: 18px;
+      letter-spacing: 0px;
+    }
+    
+    .paragraph-25 {
+      font-size: 10px;
+	  line-height: 16px;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
