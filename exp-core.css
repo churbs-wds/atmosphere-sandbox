@@ -1,6 +1,13 @@
   .image-masthead {
   background-blend-mode: normal, overlay, hard-light, color-burn, hard-light;
   }
+
+  #well-being {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-blend-mode: normal, overlay, hard-light, color-burn, hard-light;
+
+  }
   
   /* >L-viewport*/
     @media only screen 
