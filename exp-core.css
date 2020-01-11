@@ -6,37 +6,40 @@
     @media only screen 
   and (min-device-width: 1441px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-    .headline-1000.fluid {
+
+/* 1x fluid scaling max */
+
+    .headline-1000.fluid, .headline-1000.light.fluid, .headline-1000.bold.fluid, .headline-1000.black.fluid {
       font-size: 144px;
 	  line-height: 144px;
       letter-spacing: -6px;
     }
     
-      .headline-800.fluid {
+      .headline-800.fluid, .headline-800.light.fluid, .headline-800.bold.fluid, .headline-800.black.fluid {
       font-size: 128px;
 	  line-height: 128px;
       letter-spacing: -5.5px;
     }
     
-    .headline-600.fluid {
+    .headline-600.fluid, .headline-600.light.fluid, .headline-600.bold.fluid, .headline-600.black.fluid {
       font-size: 112px;
 	  line-height: 112px;
       letter-spacing: -5px;
     }
     
-    .headline-400.fluid {
+    .headline-400.fluid, .headline-400.light.fluid, .headline-400.bold.fluid, .headline-400.black.fluid {
       font-size: 96px;
 	  line-height: 96px;
       letter-spacing: -5px;
     }
     
-     .headline-200.fluid {
+     .headline-200.fluid, .headline-200.light.fluid, .headline-200.bold.fluid, .headline-200.black.fluid {
       font-size: 88px;
 	  line-height: 88px;
       letter-spacing: -4px;
     }
     
-    .headline-100.fluid {
+    .headline-100.fluid, .headline-100.light.fluid, .headline-100.bold.fluid, .headline-100.black.fluid {
       font-size: 80px;
 	  line-height: 80px;
       letter-spacing: -4px;
@@ -44,37 +47,37 @@
 
 /* 2x fluid scaling max */
 
-        .headline-1000.fluid2x {
+        .headline-1000.fluid2x, .headline-1000.light.fluid2x, .headline-1000.bold.fluid2x, .headline-1000.black.fluid2x {
       font-size: 288px;
     line-height: 288px;
       letter-spacing: -12px;
     }
     
-      .headline-800.fluid2x {
+      .headline-800.fluid2x, .headline-800.light.fluid2x, .headline-800.bold.fluid2x, .headline-800.black.fluid2x {
       font-size: 256px;
     line-height: 256px;
       letter-spacing: -11px;
     }
     
-    .headline-600.fluid2x {
+    .headline-600.fluid2x, .headline-600.light.fluid2x, .headline-600.bold.fluid2x, .headline-600.black.fluid2x {
       font-size: 224px;
     line-height: 224px;
       letter-spacing: -10px;
     }
     
-    .headline-400.fluid2x {
+    .headline-400.fluid2x, .headline-400.light.fluid2x, .headline-400.bold.fluid2x, .headline-400.black.fluid2x {
       font-size: 192px;
     line-height: 192px;
       letter-spacing: -10px;
     }
     
-     .headline-200.fluid2x {
+     .headline-200.fluid2x, .headline-200.light.fluid2x, .headline-200.bold.fluid2x, .headline-200.black.fluid2x {
       font-size: 176px;
     line-height: 176px;
       letter-spacing: -8px;
     }
     
-    .headline-100.fluid2x {
+    .headline-100.fluid2x, .headline-100.light.fluid2x, .headline-100.bold.fluid2x, .headline-100.black.fluid2x {
       font-size: 160px;
     line-height: 160px;
       letter-spacing: -8px;
@@ -83,37 +86,37 @@
 
 /* 2.5x fluid scaling max */
 
-        .headline-1000.fluid2-5x {
+        .headline-1000.fluid2-5x, .headline-1000.light.fluid2-5x, .headline-1000.bold.fluid2-5x, .headline-1000.black.fluid2-5x {
       font-size: 360px;
     line-height: 360px;
       letter-spacing: -15px;
     }
     
-      .headline-800.fluid2-5x {
+      .headline-800.fluid2-5x, .headline-800.light.fluid2-5x, .headline-800.bold.fluid2-5x, .headline-800.black.fluid2-5x {
       font-size: 320px;
     line-height: 320px;
       letter-spacing: -13.75px;
     }
     
-    .headline-600.fluid2-5x {
+    .headline-600.fluid2-5x, .headline-600.light.fluid2-5x, .headline-600.bold.fluid2-5x, .headline-600.black.fluid2-5x {
       font-size: 280px;
     line-height: 280px;
       letter-spacing: -12.5px;
     }
     
-    .headline-400.fluid2-5x {
+    .headline-400.fluid2-5x, .headline-400.light.fluid2-5x, .headline-400.bold.fluid2-5x, .headline-400.black.fluid2-5x {
       font-size: 192px;
     line-height: 192px;
       letter-spacing: -12.5px;
     }
     
-     .headline-200.fluid2-5x {
+     .headline-200.fluid2-5x, .headline-200.light.fluid2-5x, .headline-200.bold.fluid2-5x, .headline-200.black.fluid2-5x {
       font-size: 176px;
     line-height: 176px;
       letter-spacing: -10px;
     }
     
-    .headline-100.fluid2-5x {
+    .headline-100.fluid2-5x, .headline-100.light.fluid2-5x, .headline-100.bold.fluid2-5x, .headline-100.black.fluid2-5x {
       font-size: 160px;
     line-height: 160px;
       letter-spacing: -10px;
