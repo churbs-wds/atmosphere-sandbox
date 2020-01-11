@@ -5,7 +5,7 @@
   #well-being {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    background-blend-mode: normal, overlay, hard-light, color-burn, hard-light;
+    background-blend-mode: normal, overlay, hard-light, exclusion;
 
   }
   
