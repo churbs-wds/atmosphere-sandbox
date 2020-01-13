@@ -22,6 +22,12 @@
       letter-spacing: -6px;
     }
     
+    .headline-1000.black.fluid.all-caps {
+      font-size: 144px;
+    line-height: 128px;
+      letter-spacing: -6px;
+    }
+
       .headline-800.fluid, .headline-800.light.fluid, .headline-800.bold.fluid, .headline-800.black.fluid {
       font-size: 128px;
 	  line-height: 128px;
