@@ -11,8 +11,7 @@
   
   /* >L-viewport*/
     @media only screen 
-  and (min-device-width: 1441px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-device-width: 1441px){
 
 /* 1x fluid scaling max */
 
