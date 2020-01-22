@@ -139,8 +139,7 @@
   /*L-viewport*/
     @media only screen 
   and (min-device-width: 1024px) 
-  and (max-device-width: 1440px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 1440px) {
         .grid-wrapper,.masthead,.image-masthead {
          padding-right: 10vw;
     padding-left: 10vw;
@@ -339,8 +338,7 @@
   /*M-viewport*/
       @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 1023px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 1023px) {
          .grid-wrapper,.masthead,.image-masthead {
          padding-right: 48px;
     padding-left: 48px;
@@ -538,8 +536,7 @@
   /*S-viewport*/
       @media only screen 
   and (min-device-width: 512px) 
-  and (max-device-width: 767px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 767px) {
     
          .grid-wrapper,.masthead,.image-masthead {
          padding-right: 48px;
@@ -748,8 +745,7 @@
   /*XS-viewport*/
       @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 511px) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 511px) {
     
          .grid-wrapper,.masthead,.image-masthead {
          padding-right: 24px;
