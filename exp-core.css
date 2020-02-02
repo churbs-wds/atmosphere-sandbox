@@ -11,7 +11,7 @@
   
   /* >L-viewport*/
     @media only screen 
-  and (min-device-width: 1441px){
+  and (min-width: 1441px){
 
 /* 1x fluid scaling max */
 
@@ -138,8 +138,8 @@
   
   /*L-viewport*/
     @media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1440px) {
+  and (min-width: 1024px) 
+  and (max-width: 1440px) {
         .grid-wrapper,.masthead,.image-masthead {
          padding-right: 10vw;
     padding-left: 10vw;
@@ -337,8 +337,8 @@
   
   /*M-viewport*/
       @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1023px) {
+  and (min-width: 768px) 
+  and (max-width: 1023px) {
          .grid-wrapper,.masthead,.image-masthead {
          padding-right: 48px;
     padding-left: 48px;
@@ -535,8 +535,8 @@
   
   /*S-viewport*/
       @media only screen 
-  and (min-device-width: 512px) 
-  and (max-device-width: 767px) {
+  and (min-width: 512px) 
+  and (max-width: 767px) {
     
          .grid-wrapper,.masthead,.image-masthead {
          padding-right: 48px;
@@ -744,8 +744,8 @@
   
   /*XS-viewport*/
       @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 511px) {
+  and (min-width: 320px) 
+  and (max-width: 511px) {
     
          .grid-wrapper,.masthead,.image-masthead {
          padding-right: 24px;
