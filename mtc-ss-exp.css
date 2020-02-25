@@ -1,0 +1,53 @@
+  /* >L-viewport*/
+      @media only screen 
+    and (min-width: 1441px) {  
+      
+    .headline-400.bold.extended.fluid.white {
+        font-size: 96px;
+        line-height: 96px;
+        letter-spacing: -5px;
+    }    
+
+    .subheading-300.bold.fluid {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -3px;
+    }
+
+    .subheading-50.bold.compressed.fluid {
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -1.5px;
+    }
+
+    }
+    
+    /*L-viewport*/
+      @media only screen 
+    and (min-width: 1024px) 
+    and (max-width: 1440px) {
+        
+    }
+    
+    /*M-viewport*/
+        @media only screen 
+    and (min-width: 768px) 
+    and (max-width: 1023px) {
+          
+    }
+    
+    /*S-viewport*/
+        @media only screen 
+    and (min-width: 512px) 
+    and (max-width: 767px) {
+      
+          
+    }
+    
+      /*XS-viewport*/
+          @media only screen 
+      and (min-width: 320px) 
+      and (max-width: 511px) {
+      
+        
+    }
