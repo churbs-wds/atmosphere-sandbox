@@ -1,3 +1,5 @@
+/* ATM responsive grid */
+
 @media screen and (max-width: 1632px) {
     .grid {
         padding-right: 24px;
