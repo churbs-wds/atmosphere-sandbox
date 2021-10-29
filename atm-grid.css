@@ -1,23 +1,25 @@
+@media screen and (max-width: 1632px) {
     .grid {
-    padding-right: 24px;
-    padding-left: 24px;
-    -ms-grid-columns: minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr);
-    grid-template-columns: minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr);
-    -ms-grid-rows: auto;
-    grid-template-rows: auto;
-  }
+        padding-right: 24px;
+        padding-left: 24px;
+        -ms-grid-columns: minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr);
+        grid-template-columns: minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr) minmax(11px, 1fr);
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    }
+    
+    .grid.no-margins {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    
+    .grid.no-gutters {
+        grid-column-gap: 0px;
+    }
+}
   
-  .grid.no-margins {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
   
-  .grid.no-gutters {
-    grid-column-gap: 0px;
-  }
-  
-  
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 639px) {
     .grid {
       padding-right: 16px;
       padding-left: 16px;
