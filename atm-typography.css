@@ -1,59 +1,54 @@
+/* ≤1633 px viewport width */
 
-.title {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Chirp display', sans-serif;
+/* Headline component styles - Title sizes */
+.title._01 {
   font-size: 144px;
   line-height: 144px;
-  font-weight: 700;
 }
 
-.title.ext-bold {
-  font-family: 'Chirp display extended', sans-serif;
+.title._02 {
+  font-size: 120px;
+  line-height: 120px;
 }
 
-.title.ext-black {
-  font-family: 'Chirp display extended', sans-serif;
-  font-weight: 900;
-}
-
-.title._01 {
+.title._03 {
   font-size: 96px;
   line-height: 96px;
 }
 
-.title._02 {
-  font-size: 80px;
-  line-height: 80px;
-}
-
-.title._03 {
-  font-size: 64px;
-  line-height: 64px;
-}
-
 .title._04 {
+  font-size: 72px;
+  line-height: 72px;
+}
+
+.headline._01 {
   font-size: 48px;
   line-height: 48px;
 }
 
-.heading-2 {
-  font-family: 'Chirp display extended', sans-serif;
-}
-
-.heading-3 {
-  font-family: 'Chirp display extended', sans-serif;
-  font-weight: 900;
-}
-
-.headline {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Chirp display', sans-serif;
+.headline._02 {
   font-size: 30px;
   line-height: 32px;
 }
 
+.rte.manifesto {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+.rte.body._01 {
+  font-size: 23px;
+  line-height: 32px;
+}
+
+.rte.body._02 {
+  font-size: 19px;
+  line-height: 28px;
+}
+
+
+
+/* Headline component styles - Headline sizes */
 .headline._01 {
   font-size: 30px;
   line-height: 32px;
@@ -64,6 +59,7 @@
   line-height: 24px;
 }
 
+/* RTE component styles */
 .label {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -235,35 +231,35 @@
   text-decoration: underline;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1631px) {
   .title._01 {
-    font-size: 144px;
-    line-height: 144px;
+    font-size: calc( 96px + 48px * ((100vw - 1104px) / 527) );
+    line-height: calc( 96px + 48px * ((100vw - 1104px) / 527) );
   }
-
+  
   .title._02 {
-    font-size: 120px;
-    line-height: 120px;
+    font-size: calc( 80px + 40px * ((100vw = 1104) / 527) );
+    line-height: calc( 80px + 40px * ((100vw = 1104) / 527) );
   }
-
+  
   .title._03 {
-    font-size: 96px;
-    line-height: 96px;
+    font-size: calc( 64px + 32 * ((100vw - 1104px) / 527) );
+    line-height: calc( 64px + 32 * ((100vw - 1104px) / 527) );
   }
-
+  
   .title._04 {
-    font-size: 72px;
-    line-height: 72px;
+    font-size: calc( 48px + 24 * ((100vw - 1104px) / 527) );
+    line-height: calc( 48px + 24 * ((100vw - 1104px) / 527) );
   }
 
   .headline._01 {
-    font-size: 48px;
-    line-height: 48px;
+    font-size: calc( 30px + 18 * ((100vw - 1104px) / 527) );
+    line-height: calc( 32px + 16 * ((100vw - 1104px) / 527) );
   }
 
   .headline._02 {
-    font-size: 30px;
-    line-height: 32px;
+    font-size: calc( 22px + 14 * ((100vw - 1104px) / 527) );
+    line-height: calc( 24px + 12 * ((100vw - 1104px) / 527) );
   }
 
   .rte.manifesto {
@@ -282,7 +278,7 @@
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1104px) {
   .title._01 {
     font-size: 96px;
     line-height: 96px;
