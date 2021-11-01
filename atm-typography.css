@@ -211,8 +211,8 @@
   }
   
   .title._02 {
-    font-size: calc( 80px + 40 * ((100vw - 1104) / 527) );
-    line-height: calc( 80px + 40 * ((100vw - 1104) / 527) );
+    font-size: calc( 80px + 40 * ((100vw - 1104px) / 527) );
+    line-height: calc( 80px + 40 * ((100vw - 1104px) / 527) );
   }
   
   .title._03 {
