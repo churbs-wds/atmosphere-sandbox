@@ -273,6 +273,7 @@
     font-size: calc( 15px + 2 * ((100vw - 1104px) / 463) );
     line-height: calc( 20px + 4 * ((100vw - 1104px) / 463) );
   }
+}
 
 @media screen and (max-width: 1103px) {
 
