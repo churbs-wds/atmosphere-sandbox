@@ -211,8 +211,8 @@
   }
   
   .title._02 {
-    font-size: calc( 80px + 40 * ((100vw = 1104) / 527) );
-    line-height: calc( 80px + 40 * ((100vw = 1104) / 527) );
+    font-size: calc( 80px + 40 * ((100vw - 1104) / 527) );
+    line-height: calc( 80px + 40 * ((100vw - 1104) / 527) );
   }
   
   .title._03 {
@@ -240,38 +240,38 @@
   /* RTE component styles */
 
   .label.manifesto {
-    font-size: calc( 23px + 5 * ((100vw - 640px) / 463) );
-    line-height: calc( 32px + 8 * ((100vw - 640px) / 463) );
+    font-size: calc( 23px + 5 * ((100vw - 640px) / 527) );
+    line-height: calc( 32px + 8 * ((100vw - 640px) / 527) );
   }
 
   .label.body._01 {
-    font-size: calc( 19px + 4 * ((100vw - 1104px) / 463) );
-    line-height: calc( 28px + 4 * ((100vw - 1104px) / 463) );
+    font-size: calc( 19px + 4 * ((100vw - 1104px) / 527) );
+    line-height: calc( 28px + 4 * ((100vw - 1104px) / 527) );
   }
 
   .label.body._02 {
-    font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
-    line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
+    font-size: calc( 17px + 2 * ((100vw - 1104px) / 527) );
+    line-height: calc( 24px + 4 * ((100vw - 1104px) / 527) );
   }
 
   .rte.manifesto {
-    font-size: calc( 23px + 5 * ((100vw - 640px) / 463) );
-    line-height: calc( 32px + 8 * ((100vw - 640px) / 463) );
+    font-size: calc( 23px + 5 * ((100vw - 1104px) / 527) );
+    line-height: calc( 32px + 8 * ((100vw - 640px) / 527) );
   }
 
   .rte.body._01 {
-    font-size: calc( 19px + 4 * ((100vw - 1104px) / 463) );
-    line-height: calc( 28px + 4 * ((100vw - 1104px) / 463) );
+    font-size: calc( 19px + 4 * ((100vw - 1104px) / 527) );
+    line-height: calc( 28px + 4 * ((100vw - 1104px) / 527) );
   }
 
   .rte.body._02 {
-    font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
-    line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
+    font-size: calc( 17px + 2 * ((100vw - 1104px) / 527) );
+    line-height: calc( 24px + 4 * ((100vw - 1104px) / 527) );
   }
 
   .rte.sub._01 {
-    font-size: calc( 15px + 2 * ((100vw - 1104px) / 463) );
-    line-height: calc( 20px + 4 * ((100vw - 1104px) / 463) );
+    font-size: calc( 15px + 2 * ((100vw - 1104px) / 527) );
+    line-height: calc( 20px + 4 * ((100vw - 1104px) / 527) );
   }
 }
 
