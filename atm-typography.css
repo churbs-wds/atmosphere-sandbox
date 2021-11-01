@@ -16,7 +16,7 @@
   line-height: 96px;
 }
 
-.title._04 {
+.title._04 {0
   font-size: 72px;
   line-height: 72px;
 }
@@ -161,18 +161,10 @@
   letter-spacing: 0.2px;
 }
 
-.cta.bold._200.underline {
-  text-decoration: underline;
-}
-
 .cta.bold._100 {
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.1px;
-}
-
-.cta.bold._100.underline {
-  text-decoration: underline;
 }
 
 .cta.bold._50 {
@@ -181,25 +173,13 @@
   letter-spacing: 0.1px;
 }
 
-.cta.bold._50.underline {
-  text-decoration: underline;
-}
-
 .cta.bold._25 {
   font-size: 9px;
   line-height: 12px;
 }
 
-.cta.bold._25.underline {
-  text-decoration: underline;
-}
-
 .cta.regular {
   font-weight: 400;
-}
-
-.cta.regular._200.underline {
-  text-decoration: underline;
 }
 
 .cta.regular._100 {
@@ -208,17 +188,9 @@
   letter-spacing: 0.1px;
 }
 
-.cta.regular._100.underline {
-  text-decoration: underline;
-}
-
 .cta.regular._25 {
   font-size: 9px;
   line-height: 12px;
-}
-
-.cta.regular._25.underline {
-  text-decoration: underline;
 }
 
 .cta.regular._50 {
@@ -227,19 +199,20 @@
   letter-spacing: 0.1px;
 }
 
-.cta.regular._50.underline {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 1631px) {
+
+/* 1631 px - 1104 px viewport width */
+
+/* Headline component styles - Title sizes */
+
   .title._01 {
-    font-size: calc( 96px + 48px * ((100vw - 1104px) / 527) );
-    line-height: calc( 96px + 48px * ((100vw - 1104px) / 527) );
+    font-size: calc( 96px + 48 * ((100vw - 1104px) / 527) );
+    line-height: calc( 96px + 48 * ((100vw - 1104px) / 527) );
   }
   
   .title._02 {
-    font-size: calc( 80px + 40px * ((100vw = 1104) / 527) );
-    line-height: calc( 80px + 40px * ((100vw = 1104) / 527) );
+    font-size: calc( 80px + 40 * ((100vw = 1104) / 527) );
+    line-height: calc( 80px + 40 * ((100vw = 1104) / 527) );
   }
   
   .title._03 {
@@ -252,6 +225,8 @@
     line-height: calc( 48px + 24 * ((100vw - 1104px) / 527) );
   }
 
+  /* Headline component styles - Headline sizes */
+
   .headline._01 {
     font-size: calc( 30px + 18 * ((100vw - 1104px) / 527) );
     line-height: calc( 32px + 16 * ((100vw - 1104px) / 527) );
@@ -262,224 +237,180 @@
     line-height: calc( 24px + 12 * ((100vw - 1104px) / 527) );
   }
 
-  .rte.manifesto {
-    font-size: 28px;
-    line-height: 40px;
-  }
-
-  .rte.body._01 {
-    font-size: 23px;
-    line-height: 32px;
-  }
-
-  .rte.body._02 {
-    font-size: 19px;
-    line-height: 28px;
-  }
-}
-
-@media screen and (max-width: 1104px) {
-  .title._01 {
-    font-size: 96px;
-    line-height: 96px;
-  }
-
-  .title._02 {
-    font-size: 80px;
-    line-height: 80px;
-  }
-
-  .title._03 {
-    font-size: 64px;
-    line-height: 64px;
-  }
-
-  .title._04 {
-    font-size: 48px;
-    line-height: 48px;
-  }
-
-  .headline._01 {
-    font-size: 30px;
-    line-height: 32px;
-  }
-
-  .headline._02 {
-    font-size: 22px;
-    line-height: 24px;
-  }
+  /* RTE component styles */
 
   .label.manifesto {
-    font-size: 19px;
-    line-height: 28px;
+    font-size: calc( 23px + 5 * ((100vw - 640px) / 463) );
+    line-height: calc( 32px + 8 * ((100vw - 640px) / 463) );
   }
 
   .label.body._01 {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: calc( 19px + 4 * ((100vw - 1104px) / 463) );
+    line-height: calc( 28px + 4 * ((100vw - 1104px) / 463) );
   }
 
   .label.body._02 {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
+    line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
   }
 
   .rte.manifesto {
-    font-size: 19px;
-    line-height: 28px;
+    font-size: calc( 23px + 5 * ((100vw - 640px) / 463) );
+    line-height: calc( 32px + 8 * ((100vw - 640px) / 463) );
   }
 
   .rte.body._01 {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: calc( 19px + 4 * ((100vw - 1104px) / 463) );
+    line-height: calc( 28px + 4 * ((100vw - 1104px) / 463) );
   }
 
   .rte.body._02 {
-    font-size: 15px;
-    line-height: 20px;
+    font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
+    line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
   }
-}
 
-@media screen and (max-width: 767px) {
+  .rte.sub._01 {
+    font-size: calc( 15px + 2 * ((100vw - 1104px) / 463) );
+    line-height: calc( 20px + 4 * ((100vw - 1104px) / 463) );
+  }
+
+@media screen and (max-width: 1103px) {
+
+/* 1103 px - 640 px viewport width */
+
+/* Headline component styles - Title sizes */
 
   .title._01 {
-    font-size: 56px;
-    line-height: 56px;
+    font-size: calc( 56px + 40 * ((100vw - 640px) / 463) );
+    line-height: calc( 56px + 40 * ((100vw - 640px) / 463) );
   }
-
+  
   .title._02 {
-    font-size: 48px;
-    line-height: 48px;
+    font-size: calc( 48px + 32 * ((100vw - 640px) / 463) );
+    line-height: calc( 48px + 32 * ((100vw - 640px) / 463) );
   }
 
   .title._03 {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: calc( 40px + 24 * ((100vw - 640px) / 463) );
+    line-height: calc( 40px + 24 * ((100vw - 640px) / 463) );
   }
 
   .title._04 {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: calc( 28px + 20 * ((100vw - 640px) / 463) );
+    line-height: calc( 28px + 20 * ((100vw - 640px) / 463) );
+  }
+
+  /* Headline component styles - Headline sizes */
+
+  .headline._01 {
+    font-size: calc( 22px + 8 * ((100vw - 640px) / 463) );
+    line-height: calc( 24px + 8 * ((100vw - 640px) / 463) );
+  }
+
+  .headline._02 {
+    font-size: calc( 19px + 4 * ((100vw - 640px) / 463) );
+    line-height: calc( 20px + 4 * ((100vw - 640px) / 463) );  
+  }
+
+/* RTE component styles */
+
+  .label.manifesto {
+    font-size: calc( 19px + 4 * ((100vw - 640px) / 463) );
+    line-height: calc( 28px + 4 * ((100vw - 640px) / 463) );
+  }
+
+  .label.body._01 {
+    font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
+    line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
+  }
+
+  .label.body._02 {
+    font-size: calc( 15px + 2 * ((100vw - 1104px) / 463) );
+    line-height: calc( 20px + 4 * ((100vw - 1104px) / 463) );
+  }
+
+  .rte.manifesto {
+    font-size: calc( 19px + 4 * ((100vw - 640px) / 463) );
+    line-height: calc( 28px + 4 * ((100vw - 640px) / 463) );
+  }
+
+  .rte.body._01 {
+    font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
+    line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
+  }
+
+  .rte.body._02 {
+    font-size: calc( 15px + 2 * ((100vw - 1104px) / 463) );
+    line-height: calc( 20px + 4 * ((100vw - 1104px) / 463) );
   }
 }
 
+@media screen and (max-width: 639px) {
+/* 639 px - 375 px viewport width */
 
-@font-face {
-  font-family: 'Chirp cy vf std';
-  src: url('../fonts/Chirp-CY-VF-Std.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp mono vf it';
-  src: url('../fonts/Chirp-Mono-VF-It.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp vf std it';
-  src: url('../fonts/Chirp-VF-Std-It.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp vf std';
-  src: url('../fonts/Chirp-VF-Std.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp cy vf std it';
-  src: url('../fonts/Chirp-CY-VF-Std-It.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp vf stdext';
-  src: url('../fonts/Chirp-VF-StdExt.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp display vf std';
-  src: url('../fonts/Chirp-Display-VF-Std.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp mono vf';
-  src: url('../fonts/Chirp-Mono-VF.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp cy vf stdext';
-  src: url('../fonts/Chirp-CY-VF-StdExt.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp display vf ext';
-  src: url('../fonts/Chirp-Display-VF-Ext.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp display extended';
-  src: url('../fonts/Chirp-Display-Extended-Black.otf') format('opentype');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp';
-  src: url('../fonts/Chirp-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp';
-  src: url('../fonts/Chirp-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp display';
-  src: url('../fonts/Chirp-Display-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Chirp display extended';
-  src: url('../fonts/Chirp-Display-Extended-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Sf pro text';
-  src: url('../fonts/SF-Pro-Text-Bold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Sf pro text';
-  src: url('../fonts/SF-Pro-Text-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+/* Headline component styles - Title sizes */
+
+  .title._01 {
+    font-size: calc( 56px + 40 * ((100vw - 374px) / 265) );
+    line-height: calc( 56px + 40 * ((100vw - 374px) / 265) );
+  }
+
+  .title._02 {
+    font-size: calc( 48px + 48 * ((100vw - 374px) / 265) );
+    line-height: calc( 48px + 48 * ((100vw - 374px) / 265) );
+  } 
+
+  .title._03 { 
+    font-size: calc( 40px + 24 * ((100vw - 374px) / 265) );
+    line-height: calc( 40px + 24 * ((100vw - 374px) / 265) );
+  }
+
+  .title._04 {
+    font-size: calc( 28px + 20 * ((100vw - 374px) / 265) );
+    line-height: calc( 28px + 20 * ((100vw - 374px) / 265) );
+  }
+
+    /* Headline component styles - Headline sizes */
+
+    .headline._01 {
+      font-size: calc( 22px + 8 * ((100vw - 374px) / 265) );
+      line-height: calc( 24px + 8 * ((100vw - 374px) / 265) );    
+    }
+  
+    .headline._02 {
+      font-size: calc( 18px + 4 * ((100vw - 374px) / 265) );
+      line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
+    }
+  
+  /* RTE component styles */
+  
+    .label.manifesto {
+      font-size: calc( 19px + 4 * ((100vw - 374px) / 265) );
+      line-height: calc( 28px + 4 * ((100vw - 374px) / 265) );
+    }
+  
+    .label.body._01 {
+      font-size: calc( 17px + 2 * ((100vw - 374px) / 265) );
+      line-height: calc( 24px + 4 * ((100vw - 374px) / 265) );
+    }
+  
+    .label.body._02 {
+      font-size: calc( 15px + 2 * ((100vw - 374px) / 265) );
+      line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
+    }
+  
+    .rte.manifesto {
+      font-size: calc( 19px + 4 * ((100vw - 374px) / 265) );
+      line-height: calc( 28px + 4 * ((100vw - 374px) / 265) );
+    }
+  
+    .rte.body._01 {
+      font-size: calc( 17px + 2 * ((100vw - 374px) / 265) );
+      line-height: calc( 24px + 4 * ((100vw - 374px) / 265) );
+    }
+  
+    .rte.body._02 {
+      font-size: calc( 15px + 2 * ((100vw - 374px) / 265) );
+      line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
+    }
 }
