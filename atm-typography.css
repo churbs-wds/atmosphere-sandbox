@@ -116,8 +116,8 @@
   /* RTE component styles */
 
   .label.manifesto, .rte.manifesto {
-    font-size: calc( 23px + 5 * ((100vw - 640px) / 527) );
-    line-height: calc( 32px + 8 * ((100vw - 640px) / 527) );
+    font-size: calc( 23px + 5 * ((100vw - 1104px) / 527) );
+    line-height: calc( 32px + 8 * ((100vw - 1104px) / 527) );
   }
 
   .label.body._01, .rte.body._01 {
