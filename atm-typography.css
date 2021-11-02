@@ -21,6 +21,8 @@
   line-height: 72px;
 }
 
+/* Headline component styles - Headline sizes */
+
 .headline._01 {
   font-size: 48px;
   line-height: 48px;
@@ -31,173 +33,47 @@
   line-height: 32px;
 }
 
-.rte.manifesto {
-  font-size: 28px;
-  line-height: 40px;
-}
-
-.rte.body._01 {
-  font-size: 23px;
-  line-height: 32px;
-}
-
-.rte.body._02 {
-  font-size: 19px;
-  line-height: 28px;
-}
-
-
-
-/* Headline component styles - Headline sizes */
-.headline._01 {
-  font-size: 30px;
-  line-height: 32px;
-}
-
-.headline._02 {
-  font-size: 22px;
-  line-height: 24px;
-}
-
 /* RTE component styles */
-.label {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: Chirp, sans-serif;
-  font-size: 23px;
-  line-height: 32px;
-}
 
-.label.manifesto {
-  font-family: 'Sf pro text', sans-serif;
-}
-
-.label.body {
-  font-size: 19px;
-  line-height: 28px;
-}
-
-.label.body._01 {
-  font-family: 'Sf pro text', sans-serif;
-}
-
-.label.body._02 {
-  font-family: 'Sf pro text', sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-}
-
-.label.sub {
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.label.sub._01 {
-  font-family: 'Sf pro text', sans-serif;
-}
-
-.label.sub._02 {
-  font-family: 'Sf pro text', sans-serif;
-  font-size: 11px;
-  line-height: 16px;
-}
-
-.label.sub._03 {
-  font-family: 'Sf pro text', sans-serif;
-  font-size: 9px;
-  line-height: 12px;
-}
-
-.rte {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Sf pro text', sans-serif;
+.rte.manifesto, .label.manifesto {
   font-size: 28px;
   line-height: 40px;
-  font-weight: 400;
 }
 
-.rte.manifesto {
+.rte.body._01, .label.body._01 {
   font-size: 23px;
   line-height: 32px;
 }
 
-.rte.body {
-  font-size: 23px;
-  line-height: 32px;
-}
-
-.rte.body._01 {
+.rte.body._02, .label.body._02 {
   font-size: 19px;
   line-height: 28px;
 }
 
-.rte.body._02 {
+.rte.sub._01, .label.sub._01 {
   font-size: 17px;
   line-height: 24px;
 }
 
-.rte.sub {
-  font-size: 15px;
-  line-height: 20px;
-}
+/* CTA styles */
 
-.rte.sub._02 {
-  font-size: 11px;
-  line-height: 16px;
-}
-
-.rte.sub._03 {
-  font-size: 9px;
-  line-height: 12px;
-}
-
-.cta {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: 'Sf pro text', sans-serif;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-}
-
-.cta.bold._100 {
+.cta.bold._100, .cta.regular._100 {
   font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.1px;
 }
 
-.cta.bold._50 {
+.cta.bold._50, .cta.regular._50 {
   font-size: 11px;
   line-height: 16px;
   letter-spacing: 0.1px;
 }
 
-.cta.bold._25 {
+.cta.bold._25, .cta.regular._25 {
   font-size: 9px;
   line-height: 12px;
 }
 
-.cta.regular {
-  font-weight: 400;
-}
-
-.cta.regular._100 {
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.1px;
-}
-
-.cta.regular._25 {
-  font-size: 9px;
-  line-height: 12px;
-}
-
-.cta.regular._50 {
-  font-size: 11px;
-  line-height: 16px;
-  letter-spacing: 0.1px;
-}
 
 @media screen and (max-width: 1631px) {
 
@@ -239,39 +115,34 @@
 
   /* RTE component styles */
 
-  .label.manifesto {
+  .label.manifesto, .rte.manifesto {
     font-size: calc( 23px + 5 * ((100vw - 640px) / 527) );
     line-height: calc( 32px + 8 * ((100vw - 640px) / 527) );
   }
 
-  .label.body._01 {
+  .label.body._01, .rte.body._01 {
     font-size: calc( 19px + 4 * ((100vw - 1104px) / 527) );
     line-height: calc( 28px + 4 * ((100vw - 1104px) / 527) );
   }
 
-  .label.body._02 {
+  .label.body._02, .rte.body._02 {
     font-size: calc( 17px + 2 * ((100vw - 1104px) / 527) );
     line-height: calc( 24px + 4 * ((100vw - 1104px) / 527) );
   }
 
-  .rte.manifesto {
-    font-size: calc( 23px + 5 * ((100vw - 1104px) / 527) );
-    line-height: calc( 32px + 8 * ((100vw - 640px) / 527) );
-  }
-
-  .rte.body._01 {
-    font-size: calc( 19px + 4 * ((100vw - 1104px) / 527) );
-    line-height: calc( 28px + 4 * ((100vw - 1104px) / 527) );
-  }
-
-  .rte.body._02 {
-    font-size: calc( 17px + 2 * ((100vw - 1104px) / 527) );
-    line-height: calc( 24px + 4 * ((100vw - 1104px) / 527) );
-  }
-
-  .rte.sub._01 {
+  .label.sub._01, .rte.sub._01 {
     font-size: calc( 15px + 2 * ((100vw - 1104px) / 527) );
     line-height: calc( 20px + 4 * ((100vw - 1104px) / 527) );
+  }
+
+  .label.sub._02, .rte.sub._02 {
+  font-size: 11px;
+  line-height: 16px;
+  }
+
+  .label.sub._03, .rte.sub._03 {
+  font-size: 9px;
+  line-height: 12px;
   }
 }
 
@@ -315,34 +186,33 @@
 
 /* RTE component styles */
 
-  .label.manifesto {
+  .label.manifesto, .rte.manifesto {
     font-size: calc( 19px + 4 * ((100vw - 640px) / 463) );
     line-height: calc( 28px + 4 * ((100vw - 640px) / 463) );
   }
 
-  .label.body._01 {
+  .label.body._01, .rte.body._01 {
     font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
     line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
   }
 
-  .label.body._02 {
+  .label.body._02, .rte.body._02 {
     font-size: calc( 15px + 2 * ((100vw - 1104px) / 463) );
     line-height: calc( 20px + 4 * ((100vw - 1104px) / 463) );
   }
-
-  .rte.manifesto {
-    font-size: calc( 19px + 4 * ((100vw - 640px) / 463) );
-    line-height: calc( 28px + 4 * ((100vw - 640px) / 463) );
+  .label.sub._01, .rte.sub._01 {
+  font-size: 15px;
+  line-height: 20px;
   }
 
-  .rte.body._01 {
-    font-size: calc( 17px + 2 * ((100vw - 1104px) / 463) );
-    line-height: calc( 24px + 4 * ((100vw - 1104px) / 463) );
-  }
-
-  .rte.body._02 {
-    font-size: calc( 15px + 2 * ((100vw - 1104px) / 463) );
-    line-height: calc( 20px + 4 * ((100vw - 1104px) / 463) );
+  .label.sub._02, .rte.sub._02 {
+    font-size: 11px;
+    line-height: 16px;
+    }
+  
+  .label.sub._03, .rte.sub._03 {
+  font-size: 9px;
+  line-height: 12px;
   }
 }
 
@@ -373,45 +243,110 @@
 
     /* Headline component styles - Headline sizes */
 
-    .headline._01 {
-      font-size: calc( 22px + 8 * ((100vw - 374px) / 265) );
-      line-height: calc( 24px + 8 * ((100vw - 374px) / 265) );    
+  .headline._01 {
+    font-size: calc( 22px + 8 * ((100vw - 374px) / 265) );
+    line-height: calc( 24px + 8 * ((100vw - 374px) / 265) );    
+  }
+
+  .headline._02 {
+    font-size: calc( 18px + 4 * ((100vw - 374px) / 265) );
+    line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
+  }
+
+/* RTE component styles */
+
+  .label.manifesto, .rte.manifesto {
+    font-size: calc( 19px + 4 * ((100vw - 374px) / 265) );
+    line-height: calc( 28px + 4 * ((100vw - 374px) / 265) );
+  }
+
+  .label.body._01, .rte.body._01 {
+    font-size: calc( 17px + 2 * ((100vw - 374px) / 265) );
+    line-height: calc( 24px + 4 * ((100vw - 374px) / 265) );
+  }
+
+  .label.body._02, .rte.body._02 {
+    font-size: calc( 15px + 2 * ((100vw - 374px) / 265) );
+    line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
+  }
+
+  .label.sub._01, .rte.sub._01 {
+    font-size: 15px;
+    line-height: 20px;
     }
   
-    .headline._02 {
-      font-size: calc( 18px + 4 * ((100vw - 374px) / 265) );
-      line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
+  .label.sub._02, .rte.sub._02 {
+    font-size: 11px;
+    line-height: 16px;
     }
   
+  .label.sub._03, .rte.sub._03 {
+  font-size: 9px;
+  line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 373px) {
+    /* Headline component styles - Title sizes */
+  .title._01 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  .title._02 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .title._03 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .title._04 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  /* Headline component styles - Headline sizes */
+
+  .headline._01 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .headline._02 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
   /* RTE component styles */
-  
-    .label.manifesto {
-      font-size: calc( 19px + 4 * ((100vw - 374px) / 265) );
-      line-height: calc( 28px + 4 * ((100vw - 374px) / 265) );
-    }
-  
-    .label.body._01 {
-      font-size: calc( 17px + 2 * ((100vw - 374px) / 265) );
-      line-height: calc( 24px + 4 * ((100vw - 374px) / 265) );
-    }
-  
-    .label.body._02 {
-      font-size: calc( 15px + 2 * ((100vw - 374px) / 265) );
-      line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
-    }
-  
-    .rte.manifesto {
-      font-size: calc( 19px + 4 * ((100vw - 374px) / 265) );
-      line-height: calc( 28px + 4 * ((100vw - 374px) / 265) );
-    }
-  
-    .rte.body._01 {
-      font-size: calc( 17px + 2 * ((100vw - 374px) / 265) );
-      line-height: calc( 24px + 4 * ((100vw - 374px) / 265) );
-    }
-  
-    .rte.body._02 {
-      font-size: calc( 15px + 2 * ((100vw - 374px) / 265) );
-      line-height: calc( 20px + 4 * ((100vw - 374px) / 265) );
-    }
+
+  .rte.manifesto, .label.manifesto {
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  .rte.body._01, .label.body._01 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .rte.body._02, .label.body._02 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .rte.sub._01, .label.sub._01 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .rte.sub._02, .label.sub._02 {
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .rte.sub._03, .label.sub._03 {
+    font-size: 9px;
+    line-height: 12px;
+  }
 }
